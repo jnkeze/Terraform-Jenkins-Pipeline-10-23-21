@@ -3,6 +3,6 @@ resource "aws_instance" "jjtech" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "jenkins-terraform"
+    Name = "jenkins-terraform-server-10/26/2021"
   }
 }
